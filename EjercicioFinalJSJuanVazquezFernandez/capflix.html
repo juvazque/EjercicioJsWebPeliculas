@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--autor: Juan Vazquez Fernandez-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Capflix</title>
+
+    <link href="capflix.css" rel="stylesheet" />
+    <link rel="icon" href="C.png" />
+</head>
+
+<body>
+    <div id="root"></div>
+    <div class="field" id="buscador">
+        <input type="text" id="searchterm" placeholder="Que pelicula quieres buscar?" onkeypress="pulsar(event)" />
+        <button type="button" id="search" onclick="filtrarBusqueda()">Buscar</button>
+    </div>
+    <div id="root2"></div>
+    <hr>
+    <div id="listingTable"></div>
+    <script src="capflix.js"></script>
+</body>
+
+</html>
